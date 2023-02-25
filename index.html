@@ -24,7 +24,7 @@
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item t">
-                            <a class="nav-link" href="#home">home</a>
+                            <a class="nav-link" href="index.html">home</a>
                         </li>
                         <li class="nav-item t">
                             <a class="nav-link" href="#services">services</a>
@@ -33,7 +33,7 @@
                             <a class="nav-link" href="#about">about</a>
                         </li>
                         <li class="nav-item t">
-                            <a class="nav-link" href="#book">book</a>
+                            <a class="nav-link" href="#appointment">appointment</a>
                         </li>
                         <li class="nav-item t">
                             <a class="nav-link" href="#doctor">doctor</a>
@@ -51,12 +51,12 @@
                 <div class="col-lg-6 cont">
                   <h3>stay safe, stay healthy</h3>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed, neque fuga cupiditate ipsam aperiam delectus incidunt exercitati</p>
-                  <button type="button" class="btn btn-outline-success btn-lg db" href="#footer"><b>contact us</b> <i class="fa-solid fa-chevron-right"></i></button>
+                  <button type="button" class="btn btn-outline-success btn-lg db" onclick="window.location.href='mailto:healthtech@info.com';" ><b>contact us</b> <i class="fa-solid fa-chevron-right"></i></button>
                 </div>
             </div>
         </div>
     </section>
-
+        
     <!-- features -->
 
     <section id="features" class="icon-container">
@@ -82,6 +82,58 @@
                 <p class="g">Available Hospitals</p>
             </div>
       </div>
+    </section>
+
+    <!-- About -->
+
+    <section id="about" >
+      <h1 class="heading"> <span>about</span> us </h1>
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="image/about-img.svg" alt="">
+        </div>
+        <div class="col-lg-6">
+        <div class="about-content">
+              <h3 class="about-heading">We Take care of your healthy life</h3>
+              <p>We are expandng our multispecialty health care facilities, HealthTech has a well-earned reputation of being the best of healthcare in cities we service. Established in 2009, HealthTech has touched millions of lives, providing the best care and treatment for simple to most complicated diseases and conditions to the community. Combining the best available technology, medical expertise and equipment, we are redefining healthcare excellence to ensure all our patients receive comprehensive and integrated service with utmost compassion, support and care.</p>
+              <button type="button" class="btn btn-light btn-outline-success btn-lg db"><b>Learn More</b> <i class="fa-solid fa-chevron-right"></i></button>
+        </div>            
+      </div>
+    </section>
+
+    <!-- appointment -->
+
+    <section id="appointment">
+
+        <h1 class="heading"> Book <span> Appointment </span></h1>
+
+        <div class="row">
+            <div class="col-lg-6 img">
+                <img src="image/book-img.svg" alt="">
+            </div>
+            <div class="col-lg-6 form">
+                <form action="success.html" class="fm">
+                    <div class="form-group">
+                        <h3>Book Now</h3>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="your name">
+                    </div>
+                    <div class="form-group">
+                        <input type="tel" class="form-control" placeholder="your number">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-control" placeholder="your email">
+                    </div>
+                    <div class="form-group">
+                        <input type="date" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn btn-light btn-outline-success d" >Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
     </section>
 
     <!-- Testimonials -->
@@ -122,19 +174,17 @@
             <img class="testimonial-image" src="image/vector.png" alt="customer-image">
             <em>Dimple Daga, Bengaluru</em>
         </div>
-          
-
       </div>
     </div>
   </section>
   
   <footer id="footer">
     
-    <i class="fa-brands ico fa-twitter"></i>
-    <i class="fa-brands ico fa-facebook-f"></i>
-    <i class="fa-brands ico fa-instagram"></i>
-    <i class="fa-solid ico fa-envelope"></i>
-    <p class="footer-para">© Copyright 2023 healthTech</p>
+    <i class="fa-brands ico fa-twitter t"></i>
+    <i class="fa-brands ico fa-facebook-f t"></i>
+    <i class="fa-brands ico fa-instagram t"></i>
+    <i class="fa-solid ico fa-envelope t"></i>
+    <p class="footer-para t">© Copyright 2023 healthTech</p>
 
   </footer>
 </body>
