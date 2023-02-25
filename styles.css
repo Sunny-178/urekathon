@@ -108,6 +108,7 @@
 #services{
     padding: 5% 10%;
     text-align: center;
+    background-color: #f5f5f5;
 }
 
 .feauture-box{
@@ -115,7 +116,7 @@
 }
 
 .db{
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .icon{
@@ -188,6 +189,7 @@
 
 #doctor {
     padding: 5% 10%;
+    background-color: #f5f5f5;
 }
 .card{
     border-style: solid;
